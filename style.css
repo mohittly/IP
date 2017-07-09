@@ -1,0 +1,30 @@
+body {animation: change 15s infinite;}
+
+@keyframes change {
+
+	0% {background:#9b59b6;}
+	25% {background:#e74c3c;}
+	50% {background:#3498db;}
+	75% {background:#1abc9c;}
+	100% {background:#9b59b6;}
+
+}
+
+.centers {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  color:white;
+}
+
+.new {
+  color:white;
+  font-size:200%;
+}
+
+.new1 {
+  color:black;
+  font-size:120%;
+}
